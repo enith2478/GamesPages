@@ -3,20 +3,99 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Mina Spel</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Mina spel</h1>
-    <h2>Följ länkarna för att hitta alla spel</h2>
-    <div class="card" style="width: 18rem;">
-  <img src="gameMap.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Tower Defense</h5>
-    <p class="card-text">Don't let the ogres walk across.</p>
-    <a href="https://enith2478.github.io/TowerDefense/" class="btn btn-primary">Tower Defense</a>
-  </div>
-</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="text-warning">Luz</span>Enith</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hem</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Om oss</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Tjänster</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfölj</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <section class="portfolio section-padding" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               <div class="section-header text-center pb-5">
+                <h2>Mina Spel</h2>
+                <p>Följ länkarna för att hitta alla spel. <br>Kommer att lägga flera spel i framtiden.</p>
+               </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4" >
+                <div class="card h-100 text-light text-center bg-white pb-2">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <img src="gameMap.png" alt="" class="img-fluid rounded-top-2">
+                            <h3 class="card-title mt-3">Tower Defense</h3>
+                            <p class="lead mt-3">Ett gäng troll vill komma fram till ditt slott.  Se till att lägga fram ett bra försvar från början för att försäkra ditt framtid.</p>
+                            <div class="">
+                              <a href="https://enith2478.github.io/TowerDefense/" class="btn btn-warning text-dark">Spela</a>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 text-light text-center bg-white pb-2">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <img src="Frame 1.png" alt="" class="img-fluid rounded-top-2">
+                            <h3 class="card-title mt-3">Kommande spel</h3>
+                            <p class="lead mt-3">Jobbar på nya spel och kommer att lägga ut snart.</p>
+                            <div class="">
+                                <button class="btn btn-warning text-dark">Läs Mer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 text-light text-center bg-white pb-2">
+                    <div class="card-body text-dark">
+                        <div class="img-area mb-4">
+                            <img src="Frame 1.png" alt="" class="img-fluid rounded-top-2">
+                            <h3 class="card-title mt-3">Kommande spel</h3>
+                            <p class="lead mt-3">Jobbar på nya spel och kommer att lägga ut snart.</p>
+                            <div class="">
+                                <button class="btn btn-warning text-dark">Läs Mer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-5">Kontakt <br> Skicka gärna ditt feedbak till: info@luzenithmartinez.com</div>
+    </div>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
